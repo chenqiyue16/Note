@@ -1,8 +1,7 @@
-首先 要在 /etc/sudoers 加上
+首先 要vim /etc/sudoers 加上
 wanghao3 ALL=NOPASSWD:ALL
 
-默认的登录是没有root权限的，在修改服务器文件时会出现没有权限的提示然后修改失败，
-解决方法：
+然后在winscp端进行配置：
 在登录窗口的点击“高级”进入高级设置
 进入高级设置后，点击左侧栏中环境下面的“SFTP”，在SFTP服务器那里填入sudo /usr/lib/openssh/sftp-server
 再点击左侧栏中环境下的“Shell”，在Shell那里填入sudo -i
