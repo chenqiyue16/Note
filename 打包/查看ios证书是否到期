@@ -1,0 +1,8 @@
+解压包体，到\Payload\Naraka.app文件夹下
+
+MAC环境：
+security cms -D -i embedded.mobileprovision
+
+Windows环境
+openssl smime -inform der -verify -noverify -in embedded.mobileprovision
+  
