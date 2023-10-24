@@ -1,0 +1,34 @@
+keytool.exe  -list -v -keystore I:\L22\development\client\SDK\UniPack\UniPackRSA\l22android.keystor
+输入签名密码之后，可以查看相应的证书信息
+
+
+输入密钥库口令:
+密钥库类型: JKS
+密钥库提供方: SUN
+
+您的密钥库包含 1 个条目
+
+别名: l22.netease.com
+创建日期: 2022年3月1日
+条目类型: PrivateKeyEntry
+证书链长度: 1
+证书[1]:
+所有者: CN=wh, OU=ne, O=ne, L=hangzhou, ST=zhejiang, C=cn
+发布者: CN=wh, OU=ne, O=ne, L=hangzhou, ST=zhejiang, C=cn
+序列号: 24016fe1
+生效时间: Tue Mar 01 19:55:58 CST 2022, 失效时间: Thu Mar 08 19:55:58 CST 2074
+证书指纹:
+         SHA1: FA:F6:13:84:76:A5:6E:51:7B:FC:EC:06:34:49:F1:44:AF:CB:F2:9A
+         SHA256: 2F:21:F0:AE:14:EE:D6:1E:0D:40:EF:B8:D3:97:15:CF:E5:D4:51:DF:F6:16:81:5E:02:35:DD:A7:99:83:D1:CE
+签名算法名称: SHA256withRSA
+主体公共密钥算法: 2048 位 RSA 密钥
+版本: 3
+
+扩展:
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: 6B 2C 89 F6 2D BD 6D A6   87 42 10 5B A3 DB 8A 79  k,..-.m..B.[...y
+0010: C9 03 54 44                                        ..TD
+]
