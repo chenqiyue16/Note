@@ -7,6 +7,19 @@
 2、安装淘宝的镜像加速：
   npm install cnpm@7.1.0 -g --registry=https://registry.npm.taobao.org
 
+以下是报错信息：证书过期
+
+解决方案1：
+
+        // 1. 清空缓存
+           npm cache clean --force
+        // 2. 关闭SSL验证
+           npm config set strict-ssl false
+        // 3. 安装
+           到这里就可以正常使用npm命令安装需要的工具了。如(   npm install -g cnpm   )
+                        
+原文链接：https://blog.csdn.net/Future_123456/article/details/136025755
+
 3. 安装vue-cli：
   cnpm install vue-cli -g
 
