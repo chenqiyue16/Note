@@ -39,6 +39,9 @@ yarn install
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint"
   },
+
+set NODE_OPTIONS=--openssl-legacy-provider
+
 有dev的 执行 npm run dev
 有serve的 执行 npm run serve
 
